@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Github-Clone</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-dark main-navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand text-sm-center" href="#"><img src="./assets/fluidicon.png" class="img-fluid" width="35px"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon text-white"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <form class="d-flex" role="search">
+            <input class="form-control p-lg-3 search-bar text-white" type="search" placeholder="Search or jump to"
+              aria-label="Search">
+          </form>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link navlinks" aria-current="page" href="#">Pull Requests</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link navlinks" href="#">Issues</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link navlinks">Market Place</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link navlinks">Codespaces</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link navlinks">Explore</a>
+            </li>
+          </ul>
+          <ul class="d-flex align-items-center pb-sm-3 p-lg-0 justify-content-between navbar-nav">
+            <img src="./assets/profile.png" alt="profile.pfp" class="img-fluid profile">
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- Titles -->
+  <section class="mt-3">
+    <div
+      class="container titles d-flex align-items-center flex-sm-column flex-lg-row  justify-content-center border-bottom border-dark position-static">
+      <div class="title-menu me-3 d-flex justify-content-between align-items-center flex-row position-static">
+        <img src="./assets/stars.svg" alt="icon" width="20px" class="img-fluid me-1">
+        <p class="m-0">Overview</p>
+      </div>
+      <div class="title-menu me-5 d-flex justify-content-between align-items-center flex-row position-static">
+        <img src="./assets/repo.svg" alt="icon" width="20px" class="img-fluid me-1">
+        <p class="m-0">repositories</p>
+      </div>
+      <div class="title-menu me-3 d-flex justify-content-between align-items-center flex-row position-static">
+        <img src="./assets/repo.svg" alt="icon" width="20px" class="img-fluid me-1">
+        <p class="m-0">Projects</p>
+      </div>
+      <div class="title-menu me-3 d-flex justify-content-between align-items-center flex-row position-static">
+        <img src="./assets/package.svg" alt="icon" width="20px" class="img-fluid me-1">
+        <p class="m-0">Packages</p>
+      </div>
+      <div class="title-menu me-3 d-flex justify-content-between align-items-center flex-row position-static">
+        <img src="./assets/stars.svg" alt="icon" width="20px" class="img-fluid me-1">
+        <p class="m-0">Stars</p>
+      </div>
+    </div>
+  </section>
+  <!-- Main Content -->
+  <section>
+    <div class="container border border-bottom border-top-0 border-start-0 border-end-0 border-dark border-opacity-75">
+      <div class="row justify-content-between">
+        <div class="col-lg-3 d-flex flex-column col-md-12 pt-3 pb-3 pt-md-4 left-side">
+          <img src="./assets/profile.png" class="img-fluid position-relative">
+          <h4 class="fw-light mt-2 mb-3">Aadi Yadav</h4>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque nesciunt impedit quisquam. Saepe,
+            laudantium.</p>
+          <button class="btn btn-light w-100">Edit Profile</button>
+          <span class='d-flex mt-2 align-items-center justify-content-md-evenly'><img src="./assets/followers.svg" class="img-fluid follow" width="20px"></img>
+          <h6 class="fw-bold m-0 p-0">69 Followers 420 Following</h6>
+          </span>
+        </div>
+        <div class="col-lg-9 col-md-12 ps-lg-3 ps-sm-1 pe-1 pt-5">
+          <h4 class="mb-lg-1 mb-md-2">Popular repositories </h4>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-5 col-sm-12 d-flex p-3 repo-card me-3 mb-3">
+                <div class="container-fluid">
+                  <div class="row h-100">
+                    <div class="col-9 h-100 d-flex justify-content-between flex-column h-100">
+                      <a class="link-primary fw-bold">Repository - 1</a>
+                      <p class="p-0 m-0 fw-light fs-6">Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
+                      <span class="d-flex align-items-center">
+                        <div class="red-circle me-2"></div>
+                        <p class="p-0 m-0">HTML</p>
+                      </span>
+                    </div>
+                    <div class="col-3 d-flex justify-content-start align-items-center flex-column ">
+                        <p class="text-bg-light m-0 pt-0 pb-0 ps-3 pe-3 public">Public</p>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-5 col-sm-12 d-flex p-3 repo-card  me-3 mb-3">
+                <div class="container-fluid">
+                  <div class="row h-100">
+                    <div class="col-9 h-100 d-flex justify-content-between flex-column h-100">
+                      <a class="link-primary fw-bold">Repository - 1</a>
+                      <p class="p-0 m-0 fw-light fs-6">Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
+                      <span class="d-flex align-items-center">
+                        <div class="blue-circle me-2"></div>
+                        <p class="p-0 m-0">CSS</p>
+                      </span>
+                    </div>
+                    <div class="col-3 align-items-center justify-content-start flex-column d-flex">
+                      <p class="text-bg-light m-0 pt-0 pb-0 ps-3 pe-3 public">Public</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-5 col-sm-12d-flex p-3 repo-card  me-3 mb-3">
+                <div class="container-fluid">
+                  <div class="row h-100">
+                    <div class="col-9 h-100 d-flex justify-content-between flex-column h-100">
+                      <a class="link-primary fw-bold">Repository - 1</a>
+                      <p class="p-0 m-0 fw-light fs-6">Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
+                      <span class="d-flex align-items-center">
+                        <div class="blue-circle me-2"></div>
+                        <p class="p-0 m-0">CSS</p>
+                      </span>
+                    </div>
+                    <div class="col-3 align-items-center justify-content-start flex-column d-flex">
+                      <p class="text-bg-light m-0 pt-0 pb-0 ps-3 pe-3 public">Public</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-5 col-sm-12 d-flex p-3 repo-card  me-3 mb-3">
+                <div class="container-fluid">
+                  <div class="row h-100">
+                    <div class="col-9 h-100 d-flex justify-content-between flex-column h-100">
+                      <a class="link-primary fw-bold">Repository - 1</a>
+                      <p class="p-0 m-0 fw-light fs-6">Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
+                      <span class="d-flex align-items-center">
+                        <div class="yellow-circle me-2"></div>
+                        <p class="p-0 m-0">Javascript</p>
+                      </span>
+                    </div>
+                    <div class="col-3 align-items-center justify-content-start flex-column d-flex">
+                      <p class="text-bg-light m-0 pt-0 pb-0 ps-3 pe-3 public">Public</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-5 col-sm-12 d-flex p-3 repo-card  me-3 mb-3">
+                <div class="container-fluid">
+                  <div class="row h-100">
+                    <div class="col-9 h-100 d-flex justify-content-between flex-column h-100">
+                      <a class="link-primary fw-bold">Repository - 1</a>
+                      <p class="p-0 m-0 fw-light fs-6">Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
+                      <span class="d-flex align-items-center">
+                        <div class="yellow-circle me-2"></div>
+                        <p class="p-0 m-0">Javascript</p>
+                      </span>
+                    </div>
+                    <div class="col-3 align-items-center justify-content-start flex-column d-flex">
+                      <p class="text-bg-light m-0 pt-0 pb-0 ps-3 pe-3 public">Public</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-5 col-sm-12 d-flex p-3 repo-card  me-3 mb-3">
+                <div class="container-fluid">
+                  <div class="row h-100">
+                    <div class="col-9 h-100 d-flex justify-content-between flex-column h-100">
+                      <a class="link-primary fw-bold">Repository - 1</a>
+                      <p class="p-0 m-0 fw-light fs-6">Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
+                      <span class="d-flex align-items-center">
+                        <div class="red-circle me-2"></div>
+                        <p class="p-0 m-0">HTML</p>
+                      </span>
+                    </div>
+                    <div class="col-3 align-items-center justify-content-start flex-column d-flex">
+                      <p class="text-bg-light m-0 pt-0 pb-0 ps-3 pe-3 public">Public</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+            <!-- Contribution section -->
+            <div class="container">
+              <div class="row">
+                <h4 class="mb-3">Contribution Activity</h4>
+                <div class="col-lg-9">
+                  <div class="container-fluid contribution">
+                    <div class="row align-items-center position-relative">
+                      <span class="d-flex justify-content-evenly w-25"><p class="p-0 m-0 fw-semibold d-inline">February</p>
+                        <p class="p-0 m-0 fw-light d-inline">2023</p></span>
+                      <span class="line opacity-50"></span>
+                    </div>
+
+                    <div class="row align-items-center justify-content-center mt-3 mb-3">
+                        Lorem ipsum dolor sit amet.
+                    </div>
+                    <button class="btn w-100 btn-outline-primary">Show more activity</button>
+                    <div class="row d-flex w-100 mt-4 flex-wrap">
+                      <div class="col-7">
+                        <p class="m-0 p-0">Seeing something unexpected? Take a look at the</p>
+                      </div>
+                      <div class="col-3 d-flex justify-content-start">
+                        <a class="link-primary text-decoration-none d-inline">Github profile photo</a>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-2 d-flex flex-column align-content-center">
+                  <button class="btn w-100 btn-primary mb-2">2022</button>
+                  <button class="btn w-100 btn-outline-light border-0 border text-dark">2021</button>
+                </div>
+
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="container-md container-fluid mt-3 pb-3">
+    <div class="row align-items-center justify-content-center">
+      <div class="col-lg-3 col-sm-10 d-flex align-items-center justify-content-sm-center">
+        <img src="./assets/favicon.png" alt="icon">
+        <p class="ms-2 mb-0 p-0">@ 2023 Github, Inc.</p>
+      </div>
+      <div class="col-lg-9 col-sm-10 d-flex flex-sm-column flex-lg-row align-items-lg-center justify-content-lg-evenly justify-content-sm-around align-items-sm-center footer-links">
+        <a class="link-primary text-decoration-none ">Terms </a>
+        <a class="link-primary text-decoration-none ">Privacy </a>
+        <a class="link-primary text-decoration-none ">Security </a>
+        <a class="link-primary text-decoration-none ">Status</a>
+        <a class="link-primary text-decoration-none ">Docs </a>
+        <a class="link-primary text-decoration-none ">Contact Github </a>
+        <a class="link-primary text-decoration-none ">Pricing</a>
+        <a class="link-primary text-decoration-none ">API </a>
+        <a class="link-primary text-decoration-none ">Training </a>
+        <a class="link-primary text-decoration-none ">Blog</a>
+        <a class="link-primary text-decoration-none ">About</a>
+      </div>
+    </div>
+  </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+</html>
